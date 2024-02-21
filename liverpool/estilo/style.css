@@ -8,6 +8,8 @@
 
 body{
     background-color: rgba(255, 0, 0, 0.915);
+    height: 100vh;
+   
 }
 
 header{
@@ -48,6 +50,7 @@ div#video{
     text-align: center;
     margin: auto;
     
+    
 }
 
 section h2 {
@@ -72,6 +75,7 @@ div#imagens{
 
 article{
     background: white;
+
    
 }
 
@@ -86,7 +90,9 @@ article > h1{
 article > p{
     font-family: 'Courier New', Courier, monospace;
     color: black;
-    width: 800px;
+    width: 90vw;
+    font-size: clamp(0.5em, 0.5em + .8vw, 1em);
+    
 }
 
 footer h1 {
